@@ -1,13 +1,12 @@
-import hashlib
 import base64
+import hashlib
 
-from Crypto.Cipher import ARC4, AES
-from Crypto.Hash import SHA
 from Crypto import Random
+from Crypto.Cipher import AES, ARC4
+from Crypto.Hash import SHA
 
 
 class AESCipher(object):
-
     """AES encrypt and decrypt.
 
     The encrypt result is a b64encoded string, easy to transfer.

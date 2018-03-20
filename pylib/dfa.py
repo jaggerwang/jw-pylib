@@ -34,7 +34,7 @@ class cDfa:
             # word[i] in node.children:
             else:
                 if i == iEnd:
-                    Next, bWord = node.children[word[i]]
+                    Next, _ = node.children[word[i]]
                     node.children[word[i]] = (Next, True)
 
             node = node.children[word[i]][0]
