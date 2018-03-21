@@ -45,8 +45,8 @@ class cDfa:
         for i in range(iLen):
             p = root
             j = i
-            while (j < iLen and p.children is not None
-                    and sMsg[j] in p.children):
+            while (j < iLen and p.children is not None and
+                    sMsg[j] in p.children):
                 p, bWord = p.children[sMsg[j]]
                 if bWord:
                     return True
@@ -62,8 +62,8 @@ class cDfa:
         while i < iLen:
             p = root
             j = i
-            while (j < iLen and p.children is not None
-                    and sMsg[j] in p.children):
+            while (j < iLen and p.children is not None and
+                    sMsg[j] in p.children):
                 p, bWord = p.children[sMsg[j]]
                 if bWord:
                     # 关键字替换

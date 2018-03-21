@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'JW Pylib'
+project = 'jw-pylib'
 copyright = '2018, Jagger Wang'
 author = 'Jagger Wang'
 

@@ -1,3 +1,7 @@
 # Jw-pylib
 
-Python utils, such as string, email, date etc.
+Some useful python utils.
+
+----
+
+User guide for these utils.
